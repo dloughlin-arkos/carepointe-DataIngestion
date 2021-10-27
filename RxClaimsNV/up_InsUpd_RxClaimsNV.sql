@@ -225,7 +225,7 @@ SET dtQryStartTime = CURRENT_TIMESTAMP;
         ProcessID,
 		MRN_ID,
 		Created_By)
-	SELECT DISTINCT 1101, 1, C.MEMBER_AMISYS_NBR AS MRN_ID, 1065
+	SELECT DISTINCT intJobID, intProcessID, C.MEMBER_AMISYS_NBR AS MRN_ID, 1065
 	FROM tbl_rx_claims C
 	WHERE C.Patient_ID = 0;
     
