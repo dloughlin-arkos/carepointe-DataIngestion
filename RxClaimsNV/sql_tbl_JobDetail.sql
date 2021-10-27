@@ -1,5 +1,11 @@
 USE CAREPOINTE;
 
+/*
+Author		: Srikanth Vunyala
+CreatedDt	: 10/27/2021
+Purpose		: This script is used to make changes to tbl_JobDetail table
+*/
+
 TRUNCATE TABLE CAREPOINTE.tbl_JobDetail;
 
 INSERT INTO CAREPOINTE.tbl_JobDetail

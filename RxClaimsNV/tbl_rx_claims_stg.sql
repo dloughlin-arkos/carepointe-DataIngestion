@@ -1,5 +1,11 @@
 USE CAREPOINTE;
 
+/*
+Author		: Srikanth Vunyala
+CreatedDt	: 10/27/2021
+Purpose		: This object acts as a staging area to hold source file content during load execution
+*/
+
 DROP TABLE IF EXISTS CAREPOINTE.tbl_rx_claims_stg;
 
 CREATE TABLE `tbl_rx_claims_stg` (

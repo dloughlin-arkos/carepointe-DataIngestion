@@ -1,5 +1,11 @@
 USE CAREPOINTE;
 
+/*
+Author		: Srikanth Vunyala
+CreatedDt	: 10/27/2021
+Purpose		: This object holds the MRN_ID exception generated from claims load
+*/
+
 DROP TABLE IF EXISTS tbl_MRN_Exception;
 
 CREATE TABLE `tbl_MRN_Exception` (

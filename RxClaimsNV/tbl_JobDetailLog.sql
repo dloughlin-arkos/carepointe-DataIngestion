@@ -1,5 +1,11 @@
 USE CAREPOINTE;
 
+/*
+Author		: Srikanth Vunyala
+CreatedDt	: 10/27/2021
+Purpose		: This objects maintains the job execution log history of all automated loads
+*/
+
 	DROP TABLE IF EXISTS CAREPOINTE.tbl_JobDetailLog;
     
 	CREATE TABLE CAREPOINTE.tbl_JobDetailLog (

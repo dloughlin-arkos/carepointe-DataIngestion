@@ -7,6 +7,13 @@ CREATE PROCEDURE up_InsUpd_RxClaimsNV (
 	intJobID			INT,
 	intProcessID		INT
 )
+
+/*
+Author		: Srikanth Vunyala
+CreatedDt	: 10/27/2021
+Purpose		: This object does upsert of data from staging table to main table for Rx_Claims.
+*/
+
 BEGIN
 DECLARE dtProcStartTime			DATETIME DEFAULT CURRENT_TIMESTAMP;
 DECLARE dtQryStartTime			DATETIME DEFAULT CURRENT_TIMESTAMP;

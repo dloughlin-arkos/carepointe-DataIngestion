@@ -1,5 +1,11 @@
 USE CAREPOINTE;
 
+/*
+Author		: Srikanth Vunyala
+CreatedDt	: 10/27/2021
+Purpose		: This object holds list of data loads and their job details
+*/
+
 	DROP TABLE IF EXISTS tbl_JobDetail;
 
 	CREATE TABLE tbl_JobDetail (
@@ -14,5 +20,3 @@ USE CAREPOINTE;
 		JobSchedule VARCHAR(200) NOT NULL,
 		PRIMARY KEY (JobId)
 	) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-    
-

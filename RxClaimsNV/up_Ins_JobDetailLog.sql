@@ -1,4 +1,5 @@
 USE CAREPOINTE;
+
 DROP PROCEDURE IF EXISTS CAREPOINTE.up_Ins_JobDetailLog;
 
 DELIMITER //
@@ -15,6 +16,13 @@ IN
 	varUserID			VARCHAR(50),
 	varHostNm			VARCHAR(50)
 )
+
+/*
+Author		: Srikanth Vunyala
+CreatedDt	: 10/27/2021
+Purpose		: This object is used to write execution log to tbl_JobDetailLog table from other tools and programming langauges.
+*/
+
 BEGIN
 	IF (intTaskDuration = '') THEN SET intTaskDuration = 0; END IF;
     IF (intRowCnt = 0) THEN SET intRowCnt = 0; END IF;
